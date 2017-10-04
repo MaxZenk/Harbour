@@ -1,0 +1,275 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-transition: all 0.3s cubic-bezier(.56,.39,.86,.27);
+	-o-transition: all 0.3s cubic-bezier(.56,.39,.86,.27);
+	transition: all 0.3s cubic-bezier(.56,.39,.86,.27);
+}
+html {
+	max-width: 100%;
+}
+.page-header {
+	width: 100%;
+	height: 190px;
+	background-color: #6c5468;
+	z-index: 2;
+}
+.logo {
+	width: 340px;
+	height: 340px;
+	background-color: #6c5468;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	position: absolute;
+	z-index: -1;
+	text-align: center;
+	top: -40px;
+}
+.main-menu {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.main-menu ul {
+	list-style: none;
+}
+.main-menu ul li {
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+	font: 18pt 'Minion Pro', serif;
+}
+.main-menu ul li a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: 100;
+	padding-bottom: 5px;
+	border-bottom: 2px solid transparent;
+}
+.main-menu ul li a:hover {
+	border-bottom-color: #fff;
+}
+.main-menu .columns {
+	display: inline-block;
+}
+.page-header .row{
+	height: 100%;
+	text-align: center;
+}
+.page-header .row .columns {
+	display: inline-block;
+	margin: 0px auto -130px;
+	width: 30%;
+}
+.page-header .row .columns:nth-child(2n) {
+	width: 340px;
+	height: 340px;
+	margin-top: -20px;
+	background-image: url(../images/logo.png);
+	-ms-background-position-x: center;
+	background-position-x: center;
+	-ms-background-position-y: 90px;
+	background-position-y: 90px;
+	background-repeat: no-repeat;
+}
+.page-background-image {
+	width: 100%;
+	height: 900px;
+	background-color: #ccc;
+	position: relative;
+	z-index: -2;
+	background-image: url(../images/Bird.jpg);
+	background-position: center center;
+	-webkit-background-size: contain;
+	background-size: cover;
+}
+.page-background-image .raw {
+	background-image: url(../images/swoo.png);
+	background-position: top;
+	background-repeat: repeat-x;
+	height: 60px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.page-background-image .hero {
+	margin: 0 auto;
+	text-align: center;
+	/*max-width: 1190px;*/
+	width: 100%;
+	padding-top: 365px;
+}
+
+.page-background-image .glows{
+/*this is new block!!!!!!!!!!!*/
+/*this is new block!!!!!!!!!!!*/
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.3);
+}
+.page-background-image .white-line{
+/*this is new block!!!!!!!!!!!*/
+/*this is new block!!!!!!!!!!!*/
+	width: 100%;
+	height: 2%;
+	background-color: rgba(255,255,255,.4);
+	position: absolute;
+	bottom: 0;
+}
+
+.page-background-image .hero .page-text {
+	font: 43pt 'Minion Pro', serif;
+	font-style: italic;
+	font-weight: 100;
+	color: #fff;
+}
+.page-content .intro {
+	text-align: center;
+	background: #fafafa;
+}
+.page-content .intro .mug-shot {
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+.page-content .intro .intro-text {
+	margin: 0 auto;
+	padding-bottom: 50px;
+	max-width: 1340px;
+	font: 30.5pt 'Minion Pro', serif;
+	font-style: italic;
+	font-weight: 100;
+	color: #979797;
+}
+.page-content .raw-gray {
+	background-image: url(../images/swoo-grey.png);
+	background-repeat: repeat-x;
+	height: 60px;
+	padding-bottom: 90px;
+}
+.posts {
+	text-align: center;
+	color: #7d7d7d;
+	font: 16pt 'Minion Pro', serif;
+}
+.posts .header-image {
+	padding-bottom: 50px;
+}
+.posts .posted {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	font-style: italic;
+	color: #454545;
+}
+
+.posts .post-end-line {
+	padding-bottom: 90px;
+	padding-top: 30px;
+}
+.posts .scribe .header-text {
+	text-transform: uppercase;
+}
+.posts .scribe .post-text {
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.posts .quotations .post-text .author {
+	padding-top: 40px;
+	font-style: italic;
+}
+.post-icons {
+	margin-top: 15px;
+}
+.post-icon-reply {
+	display: inline-block;
+	background-image: url(../images/reply.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 37px;
+	height: 37px;
+	margin-right: 25px;
+}
+.post-icon-repeat {
+	display: inline-block;
+	background-image: url(../images/repeat.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 37px;
+	height: 37px;
+	margin-right: 20px;
+}
+.post-icon-like {
+	display: inline-block;
+	background-image: url(../images/like.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 37px;
+	height: 37px;
+}
+#main-footer {
+	text-align: center;
+}
+.page-footer .social-icons {
+	background: #6c5468;
+	height: 277px;
+}
+.footer-col {
+	padding-top: 107px;
+}
+.facebook {
+	background-image: url(../images/c-facebook.png);
+	width: 65px;
+	height: 65px;
+	background-position: center center;
+	display: inline-block;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+}
+.twitter {
+	background-image: url(../images/c-twitter.png);
+	width: 65px;
+	height: 65px;
+	background-position: center center;
+	display: inline-block;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+}
+.vimeo {
+	background-image: url(../images/c-vimeo.png);
+	width: 65px;
+	height: 65px;
+	background-position: center center;
+	display: inline-block;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+}
+.dribble {
+	background-image: url(../images/c-dribbble.png);
+	width: 65px;
+	height: 65px;
+	background-position: center center;
+	display: inline-block;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+}
+.flickr {
+	background-image: url(../images/c-flickr.png);
+	width: 65px;
+	height: 65px;
+	background-position: center center;
+	display: inline-block;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+}
+.page-footer .copyright-text {
+	font: 15pt 'Minion Pro', serif;
+	color: #7d7d7d;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+
+
